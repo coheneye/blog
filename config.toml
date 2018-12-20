@@ -1,0 +1,30 @@
+baseURL = "http://localhost/s/"
+footnoteReturnLinkContents = "↩"
+title = "传奇"
+theme = "hyde-hyde"
+
+[params]
+  author = "Jon Doe"
+  description = "hold the world!"
+  #themeColor = "theme-base-09"
+  #copyright = "chuanqi.org@all rights reserved."
+
+## Main Menu
+[menu]
+[[menu.main]]
+    name = "programming"
+    weight = 100
+    identifier = "programming"
+    url = "/programming/"
+
+[[menu.main]]
+    name = "flash"
+    weight = 101
+    identifier = "flash"
+    url = "/flash/"
+
+[[menu.main]]
+    name = "tools"
+    weight = 102
+    identifier = "tools"
+    url = "/tools/"
